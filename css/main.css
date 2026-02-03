@@ -1,23 +1,50 @@
 /* Place CSS styles here */
 body {
-    background-color: #f2c366;
+    background: linear-gradient(#2f7634, #ffe97a);
     font-family: "Unlock", serif;
 }
-img {
-    width: 700px;
-    margin-right: 5px;
-    border: 16px solid #ffffff
-}
+
 h1{
-    font: size 50px;
+    font-size: 5rem;
     text-align: center;
-    color:#ffffff
+    color:#ffffff;
+    text-shadow: 1px 1px 2px hwb(115 3% 77%);
 }
-.main-image{
+
+h2{font-size: 50px;
     text-align: center;
+    color:#ffffff;
 }
-.heading-one{
-    background-color: #96636c;
-    width: 100%; 
-    padding: 25px 0; 
+
+.background-image-with-text{
+    background-image: url(../img/Pouring\ Tea\ Two.jfif);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container{
+    background-color: linear-gradient(#56154a, #ffe97a);
+    padding:5px 5px;
+    border-radius:0 0 20px 20px; 
+    box-shadow:0 2px 8px #0b290a;
+
+}
+p{
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    margin: 50px; 
+    color: #ffffff;
+    font-size: 20px;
+}
+.align-right {
+    float: right;
+    margin-left: 15px; 
+    width: 30%; 
+    margin: 20px; 
+    border: 5px solid #ffffff;
+    border-radius: 25px;
+
 }
