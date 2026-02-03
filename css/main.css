@@ -1,1 +1,18 @@
 /* Place CSS styles here */
+body {
+    background-color: #f2c366;
+    font-family: "Unlock", serif;
+}
+img {
+    width: 700px;
+    margin-right: 5px;
+    border: 16px solid #ffffff
+}
+h1{
+    font: size 50px;
+    text-align: center;
+    color:#ffffff
+}
+.main-image{
+    text-align: center;
+}
