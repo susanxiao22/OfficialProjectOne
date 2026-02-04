@@ -48,3 +48,20 @@ p{
     border-radius: 25px;
 
 }
+.ingredients-header{
+    background-color: #7ba34e;
+    padding: 5px 10px; 
+    width: 30%; 
+    margin: -10px auto; 
+    border-radius: 10px; 
+    font-family: "Roboto Slab", serif;
+    font-size: 20px; 
+    color: #ffffff;
+    border: 5px solid #ffffff;
+
+
+
+}
+h4{
+    text-align: center;
+}
