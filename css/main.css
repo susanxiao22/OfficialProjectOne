@@ -32,12 +32,26 @@ h2{font-size: 50px;
     box-shadow:0 2px 8px #0b290a;
 
 }
-p{
+.paragraph-one{
     text-align: left;
     font-family: "Roboto Slab", serif;
     margin: 50px; 
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
+}
+.paragraph-two{
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    margin: 50px; 
+    color: #ffffff;
+    font-size: 15px;
+}
+.paragraph-three{
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    margin: 50px; 
+    color: #ffffff;
+    font-size: 15px;
 }
 .align-right {
     float: right;
@@ -50,18 +64,38 @@ p{
 }
 .ingredients-header{
     background-color: #7ba34e;
-    padding: 5px 10px; 
+    padding: -10px 20px; 
     width: 30%; 
-    margin: -10px auto; 
     border-radius: 10px; 
     font-family: "Roboto Slab", serif;
     font-size: 20px; 
     color: #ffffff;
     border: 5px solid #ffffff;
-
-
+    float: left;
+    margin-left: 50px; 
+    
+}
+.instructions-header{
+    background-color: #7ba34e;
+    padding: -10px 20px; 
+    width: 30%; 
+    border-radius: 10px; 
+    font-family: "Roboto Slab", serif;
+    font-size: 20px; 
+    color: #ffffff;
+    border: 5px solid #ffffff;
+    float: left;
+    margin-left: 50px; 
+}
+h3{
+    text-align: left;
+    color: #ffffff; 
+    font-size: 25px; 
+    margin: 50px;
+    margin-bottom: -30px;
 
 }
 h4{
     text-align: center;
+    font-size: 25px; 
 }
