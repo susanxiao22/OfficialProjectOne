@@ -76,8 +76,8 @@ img {
     font-size: 20px; 
     color: #ffffff;
     border: 5px solid #ffffff;   
+    margin: 0 auto; 
     margin-bottom: 25px; 
-    margin-left: 430px;
 
 }
 
@@ -89,7 +89,7 @@ img {
     font-family: "Roboto Slab", serif;
     font-size: 20px; 
     color: #ffffff;
-    margin-left: 430px;
+    margin: 0 auto; 
     border: 5px solid #ffffff;
 }
 
