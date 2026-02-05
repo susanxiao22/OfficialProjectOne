@@ -26,7 +26,6 @@ h2{font-size: 50px;
 }
 
 .header-container{
-    background-color: linear-gradient(#56154a, #ffe97a);
     padding:5px 5px;
     border-radius:0 0 20px 20px; 
     box-shadow:0 2px 8px #0b290a;
@@ -70,9 +69,9 @@ h2{font-size: 50px;
     font-family: "Roboto Slab", serif;
     font-size: 20px; 
     color: #ffffff;
-    border: 5px solid #ffffff;
     float: left;
     margin-left: 50px; 
+    box-shadow: 0 15px 20px #032c03;
     
 }
 .instructions-header{
@@ -83,9 +82,9 @@ h2{font-size: 50px;
     font-family: "Roboto Slab", serif;
     font-size: 20px; 
     color: #ffffff;
-    border: 5px solid #ffffff;
     float: left;
-    margin-left: 50px; 
+    margin-left: 50px;
+    box-shadow: 0 15px 20px #032c03;
 }
 h3{
     text-align: left;
@@ -98,4 +97,15 @@ h3{
 h4{
     text-align: center;
     font-size: 25px; 
+}
+.text{
+    background-color: transparent;
+    padding: -10px 20px; 
+    width: 60%; 
+    border-radius: 10px; 
+    font-family: "Roboto Slab", serif;
+    color: #ffffff;
+    float: center;
+    margin-left: 50px;
+    box-shadow: 0 15px 15px #e6ede0;
 }
