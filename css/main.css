@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-    background: linear-gradient(#2f7634, #ffe97a);
+    background: linear-gradient(#2f7634, #e4cf65);
     font-family: "Unlock", serif;
 }
 
@@ -127,7 +127,7 @@ h4{
 
 .footer {
   background-color: #46844a;
-  color: white;
+  color: #ffffff;
   padding: 10px;
   text-align: center;
 }
@@ -183,4 +183,24 @@ h4{
     font-size: 20px;
     margin-left: 20px; 
     margin-right: 20px; 
+}
+.bonus-interaction {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.hidden-content {
+    display: none; 
+    background-color: #ffffff33;
+    color: #ffffff;
+    width: 40%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px dashed #ffffff;
+    font-family: "Roboto Slab", serif;
+}
+
+.show-content {
+    display: block;
 }
